@@ -1,0 +1,14 @@
+.header-section{
+    align-items: center;
+    text-align: center;
+}
+
+.image-sami{
+    width: 300;
+    height: 150px;
+    padding: 5px;
+}
+.details-container{
+    justify-content: space-around;
+    gap: 30px;
+}
