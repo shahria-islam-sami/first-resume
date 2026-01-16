@@ -31,3 +31,6 @@ body{
     justify-content: space-around;
     padding: ;
 }
+.project a{
+text-decoration: none;
+}
