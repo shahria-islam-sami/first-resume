@@ -1,16 +1,22 @@
 body{
      margin: 10px 200px 10px 200px;
 }
-.header-section{
-   align-items: center;
+.header-section {
+   /*align-items: center;*/
     text-align: center;
    
 }
+.header-section img{
+justify-items: flex-start;
+}
+
 
 .image-sami{
-    width: 300;
-    height: 150px;
-    padding: 5px;
+   width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #333;
 }
 .info-container{
     display: flex;
