@@ -1,15 +1,24 @@
 body{
-     margin: 10px 200px 10px 200px;
+     margin: 10px 250px 10px 250px;
+     font-family: "Inter", sans-serif;
+     font-optical-sizing: auto;
+      font-style: normal;
 }
 .header-section {
-   /*align-items: center;*/
+   align-items: center;
     text-align: center;
+    row-gap: 40px;
    
 }
-.header-section img{
-justify-items: flex-start;
+.header-section h1{
+    font-size: 38px;
+    font-weight:700;
 }
-
+.header-section h2{
+    font-size: 18px;
+    font-weight: 400;
+    font-size: large;
+}
 
 .image-sami{
    width: 200px;
@@ -30,7 +39,12 @@ justify-items: flex-start;
     text-align: center;
     text-decoration: none;
     color: black;
+    
 }
+.info-container a:hover {
+    color: #4f46e5;
+}
+
 .education-table{
     align-items: center;
     text-align: center;
@@ -40,3 +54,9 @@ justify-items: flex-start;
 .project a{
 text-decoration: none;
 }
+.footer-container {
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    color: #585454;
+  }
