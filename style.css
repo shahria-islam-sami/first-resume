@@ -3,6 +3,8 @@ body{
      font-family: "Inter", sans-serif;
      font-optical-sizing: auto;
       font-style: normal;
+      padding: 50px;
+      
     
 }
 body h3{
@@ -53,7 +55,7 @@ body h3{
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    padding: ;
+    padding:0px ;
 }
 .project a{
 text-decoration: none;
@@ -63,4 +65,8 @@ text-decoration: none;
     text-align: center;
     font-weight: 400;
     color: #585454;
+  }
+
+table{
+    
   }
